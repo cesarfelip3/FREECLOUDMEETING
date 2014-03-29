@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<locales>
+	<locale code="en_US" name="English"/>
+	<locale code="pt_BR" name="Portuguese (Brazilian)"/>
+	<locale code="pt_PT" name="Portuguese"/>
+</locales>

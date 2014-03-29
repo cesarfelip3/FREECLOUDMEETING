@@ -1,0 +1,9 @@
+location /client/BigBlueButton.html {
+        rewrite ^ /conference permanent;
+}
+
+location /conference {
+        alias  /var/www/bigbluebutton/client;
+        index BigBlueButton.html;
+        expires 1m;
+}

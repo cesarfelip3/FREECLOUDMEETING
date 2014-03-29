@@ -1,0 +1,13 @@
+
+        location /client/BigBlueButton.html {
+                root    /home/hello123/dev/bigbluebutton/bigbluebutton-client;
+                index  index.html index.htm;
+                expires 1m;
+        }
+
+        # BigBlueButton Flash client.
+        location /client {
+                root    /home/hello123/dev/bigbluebutton/bigbluebutton-client;
+                index  index.html index.htm;
+        }
+
